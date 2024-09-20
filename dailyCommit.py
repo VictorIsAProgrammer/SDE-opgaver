@@ -1,2 +1,2 @@
 s = "i committed something today"
-print(s)
+print(s, ":)")
