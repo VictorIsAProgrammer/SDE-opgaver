@@ -1,1 +1,2 @@
-print("i committed something today")
+s = "i committed something today"
+print(s)
