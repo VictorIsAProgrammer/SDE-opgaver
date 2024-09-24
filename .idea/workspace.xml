@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d283eec-a2b1-4017-8cd2-18c02f712cd3" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/dailyCommit.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyCommit.py" afterDir="false" />
+    <list default="true" id="8d283eec-a2b1-4017-8cd2-18c02f712cd3" name="Changes" comment="removed play_again variable">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/PC14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssp-with-main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "VictorStudentSDE"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VictorStudentSDE&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/VictorIsAProgrammer/SDE-opgaver/",
-    "accountId": "151f9873-7866-4e90-b8a5-91464b9ada42"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VictorIsAProgrammer/SDE-opgaver/&quot;,
+    &quot;accountId&quot;: &quot;151f9873-7866-4e90-b8a5-91464b9ada42&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -43,22 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Sten-Saks-Papir.executor&quot;: &quot;Run&quot;,
-    &quot;Python.arbejdstid.executor&quot;: &quot;Run&quot;,
-    &quot;Python.simpleDice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sten-saks-papir-to-spillere.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Sten-Saks-Papir.executor": "Run",
+    "Python.arbejdstid.executor": "Run",
+    "Python.simpleDice.executor": "Run",
+    "Python.ssp-with-main.executor": "Run",
+    "Python.sten-saks-papir-to-spillere.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,6 +84,7 @@
       <workItem from="1726049424999" duration="7229000" />
       <workItem from="1726057121337" duration="1342000" />
       <workItem from="1726820223646" duration="1100000" />
+      <workItem from="1727159683487" duration="8461000" />
     </task>
     <task id="LOCAL-00001" summary="very important code">
       <option name="closed" value="true" />
@@ -112,7 +118,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726820969362</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <option name="closed" value="true" />
+      <created>1727159719131</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727159719131</updated>
+    </task>
+    <task id="LOCAL-00006" summary="verify_hour() &amp; verify_minute() now correctly returns true/false (fixed infinite recursive loop)&#10;&#10;now properly handles hours/minutes (instead of printing negative minutes)">
+      <option name="closed" value="true" />
+      <created>1727169134920</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727169134920</updated>
+    </task>
+    <task id="LOCAL-00007" summary="removed play_again variable">
+      <option name="closed" value="true" />
+      <created>1727169326543</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727169326543</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,12 +151,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="very important code" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="verify_hour() &amp; verify_minute() now correctly returns true/false (fixed infinite recursive loop)&#10;&#10;now properly handles hours/minutes (instead of printing negative minutes)" />
+    <MESSAGE value="removed play_again variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed play_again variable" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arbejdstid.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arbejdstid.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/miniProjekter$Sten_Saks_Papir.coverage" NAME="Sten-Saks-Papir Coverage Results" MODIFIED="1726053937007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/miniProjekter$simpleDice.coverage" NAME="simpleDice Coverage Results" MODIFIED="1725963671320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/miniProjekter$arbejdstid.coverage" NAME="arbejdstid Coverage Results" MODIFIED="1726820741977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/miniProjekter$sten_saks_papir_to_spillere.coverage" NAME="sten-saks-papir-to-spillere Coverage Results" MODIFIED="1726056679732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/miniProjekter$arbejdstid.coverage" NAME="arbejdstid Coverage Results" MODIFIED="1727166487692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/miniProjekter$ssp_with_main.coverage" NAME="ssp-with-main Coverage Results" MODIFIED="1727167112800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/miniProjekter$sten_saks_papir_to_spillere.coverage" NAME="sten-saks-papir-to-spillere Coverage Results" MODIFIED="1727166845649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
