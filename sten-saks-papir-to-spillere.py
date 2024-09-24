@@ -35,11 +35,10 @@ while game_winner.lower() == "uafgjort":
     if player_1_hand and player_2_hand in HAND_SIGNS:
         game_winner = choose_winner(player_1_hand, player_2_hand)
         print("Vinderen er: " + game_winner)
-        play_again = input('Hvis du vil spille igen, så skriv "Ja"\n').lower()
-        if play_again == "ja":
+        if input('Hvis du vil spille igen, så skriv "Ja"\n').lower() == "ja":
             game_winner = "uafgjort"
         else:
             print("Tak for spillet.")
             break
     else:
-        print("En af spillerene skrev forkert. Prøv igen.") #
+        print("En af spillerene skrev forkert. Prøv igen.")
