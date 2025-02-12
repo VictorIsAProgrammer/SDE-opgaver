@@ -2,31 +2,30 @@
 MIN_HOUR, MAX_HOUR = 0, 23
 MIN_MINUTE, MAX_MINUTE = 0, 59
 
-# Valider og indhent tid (enten time eller minut)
-def input_time(time_unit):
-    # Håndter input for 'hour'
-    if time_unit == "hour":
-        hour = input("Time: ")  # Bed brugeren om en time. Bliv ikke forvirret over dansk/engelsk
-        try:
-            hour = int(hour)  # Forsøg at caste til int
-        except ValueError:  # Hvis input ikke kunne castes til en int
-            print("Indtast time som tal")  # Bed om et tal
-            return input_time("hour")  # Kalder sig selv, indtil input kan castes til en int
-        if not verify_hour(hour):  # Hvis timen er imellem 0 og 23
-            return input_time("hour") # Så kalder den sig selv
-        return hour  # Returner den validerede time, hvis input er rigtigt
-    # Håndter input for 'minute'
-    elif time_unit == "minute":
-        minute = input("Minut: ")  # Bed brugeren om antal minutter
-        try:
-            minute = int(minute)  # Cast
-        except ValueError:
-            print("Indtast minut som tal")
-            return input_time("minute")
-        if not verify_minute(minute):
-            return input_time("minute")
-        return minute  # Returner det validerede minut
 
+def input_time(time_unit):
+    while True:
+        if time_unit == "hour":
+            user_input = input("Indtast time: ")
+            try:
+                hour = int(user_input)
+                if verify_hour(hour):  # Kontrollerer om timen er gyldig
+                    return hour
+                else:
+                    print("Indtast en time mellem 0 og 23.")
+            except ValueError:
+                print("Indtast timer som et heltal.")
+
+        elif time_unit == "minute":
+            user_input = input("Indtast minut: ")
+            try:
+                minute = int(user_input)
+                if verify_minute(minute):  # Kontrollerer om minuttet er gyldigt
+                    return minute
+                else:
+                    print("Indtast et minut mellem 0 og 59.")
+            except ValueError:
+                print("Indtast minutter som et heltal .")
 
 # Tjekker om timen er inden for det gyldige interval (0-23)
 def verify_hour(h):
@@ -69,6 +68,7 @@ def calculate_work_time(h1, h2, m1, m2):
 
     return hours, minutes  # Returner de beregnede timer og minutter
 
+
 # main metode. indhenter input, udregner arbejdstid og viser/gemmer resultater
 def main():
     # Bed om input
@@ -86,6 +86,7 @@ def main():
     save_to_file(time_stayed[0], time_stayed[1])
 
     print(f"Du har arbejdet {time_stayed[0]} timer og {time_stayed[1]} minutter.")
+
 
 # Kør main
 main()
